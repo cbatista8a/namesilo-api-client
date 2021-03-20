@@ -1,0 +1,26 @@
+{
+    "name": "cbatista8a/namesilo-api-client",
+    "homepage": "https://github.com/cbatista8a/namesilo-api-client",
+    "description": "Use Namesilo Api In Laravel",
+    "keywords": ["namesilo","laravel","api"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cuba DevOps",
+            "homepage": "https://cuba-devops.online"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cbatista8a/namesilo-api-client/issues"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Namesilo\\": "src/"
+        }
+    }
+}
